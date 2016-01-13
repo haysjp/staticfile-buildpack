@@ -70,4 +70,5 @@ if [[ "$(grep directory: Staticfile)X" != "X" ]]; then
   touch nginx/conf/.enable_directory_index
 fi
 
+status "helloworld from the compile script"
 cp $compile_buildpack_bin/boot.sh .
